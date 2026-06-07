@@ -1,0 +1,60 @@
+#include "entity/Avion.h"
+#include <iostream>
+namespace entity
+{
+    Avion::Avion(int x , int y) : ElementJeu(x,y) {
+
+    }
+
+    Avion::~Avion() {
+
+    }
+
+    void Avion::Voler() {
+        std::cout << "L avion vole" << std::endl ;
+    }
+} // namespace entity
+#pragma once
+#include "util/Vecteur.h"
+#include "entity/ElementJeu.h"
+namespace entity
+{
+    class Avion : public ElementJeu 
+    {
+    private:
+        util::Vecteur vitesse;
+        util::Vecteur acceleration;
+        util::Vecteur capaciteFreinage;
+
+        int vitesseDecrochage;
+    public:
+        Avion(int x , int y) ;
+        ~Avion();
+        void Voler();
+    };
+} // namespace entity
+#include "ElementJeu.h"
+namespace entity
+{
+    ElementJeu::ElementJeu(int x , int y ) : possition(x,y)
+    {
+    }
+
+    ElementJeu::~ElementJeu()
+    {
+    }
+} // namespace entity
+#include "util/Vecteur.h"
+namespace entity
+{
+    class ElementJeu
+    {
+    protected:
+        util::Vecteur possition;
+
+    public:
+        ElementJeu(int x, int y);
+        ~ElementJeu();
+    };
+
+} // namespace entity

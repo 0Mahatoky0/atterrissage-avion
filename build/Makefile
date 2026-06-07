@@ -153,6 +153,30 @@ src/entity/Avion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/entity/Avion.cpp.s
 .PHONY : src/entity/Avion.cpp.s
 
+src/entity/ElementJeu.o: src/entity/ElementJeu.cpp.o
+.PHONY : src/entity/ElementJeu.o
+
+# target to build an object file
+src/entity/ElementJeu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o
+.PHONY : src/entity/ElementJeu.cpp.o
+
+src/entity/ElementJeu.i: src/entity/ElementJeu.cpp.i
+.PHONY : src/entity/ElementJeu.i
+
+# target to preprocess a source file
+src/entity/ElementJeu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.i
+.PHONY : src/entity/ElementJeu.cpp.i
+
+src/entity/ElementJeu.s: src/entity/ElementJeu.cpp.s
+.PHONY : src/entity/ElementJeu.s
+
+# target to generate assembly for a file
+src/entity/ElementJeu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.s
+.PHONY : src/entity/ElementJeu.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -177,6 +201,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/util/Vecteur.o: src/util/Vecteur.cpp.o
+.PHONY : src/util/Vecteur.o
+
+# target to build an object file
+src/util/Vecteur.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/util/Vecteur.cpp.o
+.PHONY : src/util/Vecteur.cpp.o
+
+src/util/Vecteur.i: src/util/Vecteur.cpp.i
+.PHONY : src/util/Vecteur.i
+
+# target to preprocess a source file
+src/util/Vecteur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/util/Vecteur.cpp.i
+.PHONY : src/util/Vecteur.cpp.i
+
+src/util/Vecteur.s: src/util/Vecteur.cpp.s
+.PHONY : src/util/Vecteur.s
+
+# target to generate assembly for a file
+src/util/Vecteur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/util/Vecteur.cpp.s
+.PHONY : src/util/Vecteur.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +237,15 @@ help:
 	@echo "... src/entity/Avion.o"
 	@echo "... src/entity/Avion.i"
 	@echo "... src/entity/Avion.s"
+	@echo "... src/entity/ElementJeu.o"
+	@echo "... src/entity/ElementJeu.i"
+	@echo "... src/entity/ElementJeu.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/util/Vecteur.o"
+	@echo "... src/util/Vecteur.i"
+	@echo "... src/util/Vecteur.s"
 .PHONY : help
 
 

@@ -150,4 +150,6 @@ CMakeFiles/avion.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/Avion.h
+ /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/Avion.h \
+ /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/util/Vecteur.h \
+ /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ElementJeu.h

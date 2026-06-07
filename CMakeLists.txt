@@ -9,6 +9,8 @@ set(
     # ajout des fichier a suivre par cmake
     src/main.cpp
     src/entity/Avion.cpp
+    src/entity/ElementJeu.cpp
+    src/util/Vecteur.cpp
 )
 
 # creation de l executable avec nom avion a partire de main

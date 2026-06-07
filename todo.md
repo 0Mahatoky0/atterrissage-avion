@@ -4,12 +4,16 @@
   - [ok] ou metre les .h
   - [ok] ou mettre les .cpp
   - [ok] architecutere courane ?
-  - quelle sont les norme de nomage de fonction ,variable classe 
-  - les boucle , condition , sont il le meme qu on java 
+  - [ok] quelle sont les norme de nomage de fonction ,variable classe 
+  - [ok] les boucle , condition , sont il le meme qu on java 
 - [ok] compilation avec makefile
 - [ok] fichier hello world
 # implementation backend
 ## creation des classe
+### Vecteur
+#### Attribut
+- x 
+- y
 ### Avion
 #### Attribut
 1. vitesse :

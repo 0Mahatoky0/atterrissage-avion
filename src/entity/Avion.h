@@ -1,12 +1,20 @@
 #pragma once
+#include "util/Vecteur.h"
+#include "entity/ElementJeu.h"
 namespace entity
 {
-    class Avion
+    class Avion : public ElementJeu
     {
     private:
-        /* data */
+        util::Vecteur vitesse;
+        util::Vecteur acceleration;
+        util::Vecteur variationAcceleration;
+        util::Vecteur capaciteFreinage;
+
+        int vitesseDecrochage;
+
     public:
-        Avion(/* args */);
+        Avion(util::Vecteur possition, util::Vecteur capaciteFreinage, util::Vecteur variationAcceleration, int vx, int vitesseDecrochage);
         ~Avion();
         void Voler();
     };
