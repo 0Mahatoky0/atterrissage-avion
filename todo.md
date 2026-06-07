@@ -41,6 +41,7 @@
 - Avion
 - Aeroport
 - ZoneJeu
+- Jeu
 ## implemetation des fonctions de classe
 - Avion
 - Aeroport
