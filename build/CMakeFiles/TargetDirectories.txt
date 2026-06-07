@@ -1,3 +1,0 @@
-/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles/avion.dir
-/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles/edit_cache.dir
-/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles/rebuild_cache.dir
