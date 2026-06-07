@@ -9,6 +9,7 @@ set(
     # ajout des fichier a suivre par cmake
     src/main.cpp
     src/entity/Avion.cpp
+    src/entity/Aeroport.cpp
     src/entity/ElementJeu.cpp
     src/util/Vecteur.cpp
 )

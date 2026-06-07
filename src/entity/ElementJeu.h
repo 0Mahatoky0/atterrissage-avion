@@ -1,3 +1,4 @@
+#pragma once
 #include "util/Vecteur.h"
 namespace entity
 {

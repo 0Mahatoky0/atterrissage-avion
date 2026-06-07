@@ -28,7 +28,9 @@
 4. Position :
    - Position x
    - Posistion y
-
+5. Variation acceleration
+   - X
+   - Y
 - vitesseDecrochage
 ### Aeroport
 #### Attribut

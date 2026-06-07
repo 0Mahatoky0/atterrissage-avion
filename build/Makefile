@@ -129,6 +129,30 @@ avion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/build
 .PHONY : avion/fast
 
+src/entity/Aeroport.o: src/entity/Aeroport.cpp.o
+.PHONY : src/entity/Aeroport.o
+
+# target to build an object file
+src/entity/Aeroport.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/entity/Aeroport.cpp.o
+.PHONY : src/entity/Aeroport.cpp.o
+
+src/entity/Aeroport.i: src/entity/Aeroport.cpp.i
+.PHONY : src/entity/Aeroport.i
+
+# target to preprocess a source file
+src/entity/Aeroport.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/entity/Aeroport.cpp.i
+.PHONY : src/entity/Aeroport.cpp.i
+
+src/entity/Aeroport.s: src/entity/Aeroport.cpp.s
+.PHONY : src/entity/Aeroport.s
+
+# target to generate assembly for a file
+src/entity/Aeroport.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/entity/Aeroport.cpp.s
+.PHONY : src/entity/Aeroport.cpp.s
+
 src/entity/Avion.o: src/entity/Avion.cpp.o
 .PHONY : src/entity/Avion.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... avion"
+	@echo "... src/entity/Aeroport.o"
+	@echo "... src/entity/Aeroport.i"
+	@echo "... src/entity/Aeroport.s"
 	@echo "... src/entity/Avion.o"
 	@echo "... src/entity/Avion.i"
 	@echo "... src/entity/Avion.s"
