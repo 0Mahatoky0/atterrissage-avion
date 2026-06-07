@@ -111,10 +111,24 @@ CMakeFiles/avion.dir/src/entity/Aeroport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/avion.dir/src/entity/Aeroport.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/Aeroport.cpp -o CMakeFiles/avion.dir/src/entity/Aeroport.cpp.s
 
+CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.o: CMakeFiles/avion.dir/flags.make
+CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.o: /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ZoneJeu.cpp
+CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.o: CMakeFiles/avion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.o -MF CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.o.d -o CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.o -c /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ZoneJeu.cpp
+
+CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ZoneJeu.cpp > CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.i
+
+CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ZoneJeu.cpp -o CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.s
+
 CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o: CMakeFiles/avion.dir/flags.make
 CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o: /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ElementJeu.cpp
 CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o: CMakeFiles/avion.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o -MF CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o.d -o CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o -c /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ElementJeu.cpp
 
 CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.s: cmake_force
 CMakeFiles/avion.dir/src/util/Vecteur.cpp.o: CMakeFiles/avion.dir/flags.make
 CMakeFiles/avion.dir/src/util/Vecteur.cpp.o: /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/util/Vecteur.cpp
 CMakeFiles/avion.dir/src/util/Vecteur.cpp.o: CMakeFiles/avion.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/avion.dir/src/util/Vecteur.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/avion.dir/src/util/Vecteur.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/avion.dir/src/util/Vecteur.cpp.o -MF CMakeFiles/avion.dir/src/util/Vecteur.cpp.o.d -o CMakeFiles/avion.dir/src/util/Vecteur.cpp.o -c /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/util/Vecteur.cpp
 
 CMakeFiles/avion.dir/src/util/Vecteur.cpp.i: cmake_force
@@ -144,6 +158,7 @@ avion_OBJECTS = \
 "CMakeFiles/avion.dir/src/main.cpp.o" \
 "CMakeFiles/avion.dir/src/entity/Avion.cpp.o" \
 "CMakeFiles/avion.dir/src/entity/Aeroport.cpp.o" \
+"CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.o" \
 "CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o" \
 "CMakeFiles/avion.dir/src/util/Vecteur.cpp.o"
 
@@ -153,11 +168,12 @@ avion_EXTERNAL_OBJECTS =
 avion: CMakeFiles/avion.dir/src/main.cpp.o
 avion: CMakeFiles/avion.dir/src/entity/Avion.cpp.o
 avion: CMakeFiles/avion.dir/src/entity/Aeroport.cpp.o
+avion: CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.o
 avion: CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o
 avion: CMakeFiles/avion.dir/src/util/Vecteur.cpp.o
 avion: CMakeFiles/avion.dir/build.make
 avion: CMakeFiles/avion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable avion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable avion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/avion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

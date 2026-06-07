@@ -202,10 +202,17 @@ CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.o: /home/max/Fianarana/s4/tahina-
   /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/util/Vecteur.h \
   /usr/include/stdc-predef.h
 
+CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.o: /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ZoneJeu.cpp \
+  /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ElementJeu.h \
+  /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ZoneJeu.h \
+  /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/util/Vecteur.h \
+  /usr/include/stdc-predef.h
+
 CMakeFiles/avion.dir/src/main.cpp.o: /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/main.cpp \
   /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/Aeroport.h \
   /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/Avion.h \
   /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ElementJeu.h \
+  /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ZoneJeu.h \
   /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/util/Vecteur.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -401,6 +408,10 @@ CMakeFiles/avion.dir/src/util/Vecteur.cpp.o: /home/max/Fianarana/s4/tahina-proje
 /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/util/Vecteur.cpp:
 
 /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/main.cpp:
+
+/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ZoneJeu.h:
+
+/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ZoneJeu.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 

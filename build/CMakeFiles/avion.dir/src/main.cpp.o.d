@@ -153,4 +153,5 @@ CMakeFiles/avion.dir/src/main.cpp.o: \
  /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/Avion.h \
  /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/util/Vecteur.h \
  /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ElementJeu.h \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/Aeroport.h
+ /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/Aeroport.h \
+ /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ZoneJeu.h

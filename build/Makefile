@@ -201,6 +201,30 @@ src/entity/ElementJeu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/entity/ElementJeu.cpp.s
 .PHONY : src/entity/ElementJeu.cpp.s
 
+src/entity/ZoneJeu.o: src/entity/ZoneJeu.cpp.o
+.PHONY : src/entity/ZoneJeu.o
+
+# target to build an object file
+src/entity/ZoneJeu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.o
+.PHONY : src/entity/ZoneJeu.cpp.o
+
+src/entity/ZoneJeu.i: src/entity/ZoneJeu.cpp.i
+.PHONY : src/entity/ZoneJeu.i
+
+# target to preprocess a source file
+src/entity/ZoneJeu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.i
+.PHONY : src/entity/ZoneJeu.cpp.i
+
+src/entity/ZoneJeu.s: src/entity/ZoneJeu.cpp.s
+.PHONY : src/entity/ZoneJeu.s
+
+# target to generate assembly for a file
+src/entity/ZoneJeu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/entity/ZoneJeu.cpp.s
+.PHONY : src/entity/ZoneJeu.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... src/entity/ElementJeu.o"
 	@echo "... src/entity/ElementJeu.i"
 	@echo "... src/entity/ElementJeu.s"
+	@echo "... src/entity/ZoneJeu.o"
+	@echo "... src/entity/ZoneJeu.i"
+	@echo "... src/entity/ZoneJeu.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
