@@ -1,5 +1,7 @@
 #include<iostream>
+#include "entity/Avion.h"
 int main() {
-    std::cout << "Helle via cmake" << std::endl;
+    entity::Avion avion = entity::Avion();
+    avion.Voler();
     return 0;
 }
