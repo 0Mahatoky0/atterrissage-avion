@@ -4,7 +4,7 @@ namespace entity
 {
     class ElementJeu
     {
-    protected:
+    public:
         util::Vecteur possition;
 
     public:

@@ -12,9 +12,13 @@ namespace entity
 
     void Avion::avancer(float durrerMilliseconde)
     {
+        // meetre a jour la vitesse
+        vitesse.x += acceleration.x * (durrerMilliseconde/1000);
+        vitesse.y += acceleration.y * (durrerMilliseconde/1000);
+
         // mettre a jour le coordoner x
-        possition.x += vitesse.x / 1000;
-        // mettre a jour le coordoner y
+        possition.x += vitesse.x * (durrerMilliseconde/1000);
+        possition.y += vitesse.y * (durrerMilliseconde/1000);
     }
 
     void Avion::augmenterAccelerationX()
