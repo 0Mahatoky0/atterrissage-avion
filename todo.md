@@ -1,5 +1,11 @@
 # preparation
 - structure de projet
+  - comment est structuerer les projet en cpp
+  - ou metre les .h
+  - ou mettre les .cpp
+  - architecutere courane ?
+  - quelle sont les norme de nomage de fonction ,variable classe 
+  - les boucle , conditio , sont il le meme qu on java 
 - compilation avec makefile
 - fichier hello world
 # implementation backend
