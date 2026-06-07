@@ -5,17 +5,23 @@ namespace entity
 {
     class Avion : public ElementJeu
     {
-    private:
+    public:
         util::Vecteur vitesse;
         util::Vecteur acceleration;
         util::Vecteur variationAcceleration;
         util::Vecteur capaciteFreinage;
 
-        int vitesseDecrochage;
+        float vitesseDecrochage;
 
     public:
-        Avion(util::Vecteur possition, util::Vecteur capaciteFreinage, util::Vecteur variationAcceleration, int vx, int vitesseDecrochage);
+        Avion(util::Vecteur possition, util::Vecteur capaciteFreinage, util::Vecteur variationAcceleration, float vx, float vitesseDecrochage);
         ~Avion();
-        void Voler();
+
+        void avancer(float durrerMilliseconde);
+        void augmenterAccelerationX();
+        void diminuerAccelerationX();
+        void augmenterAccelerationY();
+        void diminuerAccelerationY();
+        bool decrouche();
     };
 } // namespace entity

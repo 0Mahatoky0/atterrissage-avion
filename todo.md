@@ -39,7 +39,10 @@
 
 ### ZoneJeu
 #### Attribut
-1. LimitationZone
+1. LimitationMax
+   - x
+   - y
+2. LimitationMin
    - x
    - y
 ### Jeu
@@ -51,9 +54,28 @@
 
 ## definition des fonctions a implementer
 - Avion
+  - avancer(float miliseconde)
+    - metter a jour le possition
+  - mittreAJourVitesse(float miliseconde)
+    - augmeter vitesse x , y 
+    - verifier si vitesse x inferieur a vitesse de decrochage
+      - si oui
+        - setVariationAccelerationY = 100
+        - vietesse x = 0
+
+  - augmenterAccelerationX()
+    - accelerationX += varition acceleration x 
+  - augmenterAccelerationY()
 - Aeroport
 - ZoneJeu
+  - contient(Avion avion)
+
 - Jeu
+  - mettreAJour(float miliseconde)
+    - verifier si avon dans le zone de jeu
+      - si oui : exploser
+    - verifier si l avion n a pas encore exploser
+    - 
 ## implemetation des fonctions de classe
 - Avion
 - Aeroport

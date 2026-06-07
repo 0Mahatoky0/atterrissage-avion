@@ -2,7 +2,7 @@
 #include <iostream>
 namespace entity
 {
-    Avion::Avion(util::Vecteur possition, util::Vecteur capaciteFreinage, util::Vecteur variationAcceleration, int vx, int vitesseDecrochage) : ElementJeu(possition), capaciteFreinage(capaciteFreinage), variationAcceleration(variationAcceleration), acceleration(0, 0), vitesse(vx, 0), vitesseDecrochage(vitesseDecrochage)
+    Avion::Avion(util::Vecteur possition, util::Vecteur capaciteFreinage, util::Vecteur variationAcceleration, float vx, float vitesseDecrochage) : ElementJeu(possition), capaciteFreinage(capaciteFreinage), variationAcceleration(variationAcceleration), acceleration(0, 0), vitesse(vx, 0), vitesseDecrochage(vitesseDecrochage)
     {
     }
 
@@ -10,8 +10,45 @@ namespace entity
     {
     }
 
-    void Avion::Voler()
+    void Avion::avancer(float durrerMilliseconde)
     {
-        std::cout << "L avion vole" << std::endl;
+        // mettre a jour le coordoner x
+        possition.x += vitesse.x / 1000;
+        // mettre a jour le coordoner y
     }
+
+    void Avion::augmenterAccelerationX()
+    {
+        this->acceleration.x += this->variationAcceleration.x;
+    }
+    void Avion::diminuerAccelerationX()
+    {
+        float newAcceleration = this->acceleration.x - this->variationAcceleration.x;
+        if (newAcceleration > this->capaciteFreinage.x)
+        {
+            this->acceleration.x = newAcceleration;
+        }
+        else
+        {
+            this->acceleration.x = this->capaciteFreinage.x;
+        }
+    }
+
+    void Avion::augmenterAccelerationY()
+    {
+        this->acceleration.y += this->variationAcceleration.y;
+    }
+    void Avion::diminuerAccelerationY()
+    {
+        float newAcceleration = this->acceleration.y - this->variationAcceleration.y;
+        if (newAcceleration > this->capaciteFreinage.y)
+        {
+            this->acceleration.y = newAcceleration;
+        }
+        else
+        {
+            this->acceleration.y = this->capaciteFreinage.y;
+        }
+    }
+    
 } // namespace entity

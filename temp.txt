@@ -2,7 +2,7 @@
 #include <iostream>
 namespace entity
 {
-    Avion::Avion(int x , int y) : ElementJeu(x,y) {
+    Avion::Avion(float x , float y) : ElementJeu(x,y) {
 
     }
 
@@ -26,9 +26,9 @@ namespace entity
         util::Vecteur acceleration;
         util::Vecteur capaciteFreinage;
 
-        int vitesseDecrochage;
+        float vitesseDecrochage;
     public:
-        Avion(int x , int y) ;
+        Avion(float x , float y) ;
         ~Avion();
         void Voler();
     };
@@ -36,7 +36,7 @@ namespace entity
 #include "ElementJeu.h"
 namespace entity
 {
-    ElementJeu::ElementJeu(int x , int y ) : possition(x,y)
+    ElementJeu::ElementJeu(float x , float y ) : possition(x,y)
     {
     }
 
@@ -53,7 +53,7 @@ namespace entity
         util::Vecteur possition;
 
     public:
-        ElementJeu(int x, int y);
+        ElementJeu(float x, float y);
         ~ElementJeu();
     };
 

@@ -5,7 +5,7 @@ namespace entity
     class Aeroport : ElementJeu 
     {
     private:
-        int longeur;
+        float longeur;
 
     public:
         Aeroport(util::Vecteur position);

@@ -3,12 +3,12 @@ namespace util
 {
     class Vecteur
     {
-    public : int x; 
-    public : int y;
+    public : float x; 
+    public : float y;
 
         /* data */
     public:
-        Vecteur(int x , int y);
+        Vecteur(float x , float y);
         ~Vecteur();
     };
 } // namespace util
