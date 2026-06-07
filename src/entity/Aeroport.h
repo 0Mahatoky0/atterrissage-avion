@@ -8,7 +8,8 @@ namespace entity
         float longeur;
 
     public:
-        Aeroport(util::Vecteur position);
+        Aeroport(util::Vecteur position,float longeur);
         ~Aeroport();
+        bool siege(ElementJeu element);
     };    
 } // namespace entity
