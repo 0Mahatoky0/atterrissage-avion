@@ -14,10 +14,10 @@ namespace entity
         float vitesseDecrochage;
 
     public:
-        Avion(util::Vecteur possition, util::Vecteur capaciteFreinage, util::Vecteur variationAcceleration, float vx, float vitesseDecrochage);
+        Avion(util::Vecteur position, util::Vecteur capaciteFreinage, util::Vecteur variationAcceleration, float vx, float vitesseDecrochage);
         ~Avion();
 
-        void avancer(float durrerMilliseconde);
+        void simuler(float durrerMilliseconde);
         void augmenterAccelerationX();
         void diminuerAccelerationX();
         void augmenterAccelerationY();

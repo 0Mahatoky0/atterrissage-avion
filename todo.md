@@ -55,7 +55,7 @@
 ## definition des fonctions a implementer
 - Avion
   - avancer(float miliseconde)
-    - metter a jour le possition
+    - metter a jour le position
   - mittreAJourVitesse(float miliseconde)
     - augmeter vitesse x , y 
     - verifier si vitesse x inferieur a vitesse de decrochage

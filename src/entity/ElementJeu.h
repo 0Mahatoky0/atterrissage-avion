@@ -5,11 +5,13 @@ namespace entity
     class ElementJeu
     {
     public:
-        util::Vecteur possition;
+        util::Vecteur position;
 
     public:
-        ElementJeu(util::Vecteur possition);
+        ElementJeu(util::Vecteur position);
         ~ElementJeu();
+        util::Vecteur& getPosition();
     };
+
 
 } // namespace entity

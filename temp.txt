@@ -36,7 +36,7 @@ namespace entity
 #include "ElementJeu.h"
 namespace entity
 {
-    ElementJeu::ElementJeu(float x , float y ) : possition(x,y)
+    ElementJeu::ElementJeu(float x , float y ) : position(x,y)
     {
     }
 
@@ -50,7 +50,7 @@ namespace entity
     class ElementJeu
     {
     protected:
-        util::Vecteur possition;
+        util::Vecteur position;
 
     public:
         ElementJeu(float x, float y);

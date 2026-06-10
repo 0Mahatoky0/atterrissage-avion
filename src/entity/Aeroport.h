@@ -2,7 +2,7 @@
 #include "entity/ElementJeu.h"
 namespace entity 
 {
-    class Aeroport : ElementJeu 
+    class Aeroport : public ElementJeu 
     {
     private:
         float longeur;

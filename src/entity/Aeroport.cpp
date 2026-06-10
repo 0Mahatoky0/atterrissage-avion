@@ -10,6 +10,6 @@ namespace entity
     }
 
     bool Aeroport::siege(ElementJeu el) {
-        return el.possition.x >= this->possition.x && el.possition.x <= this->possition.x + this->longeur && el.possition.y <= this->possition.y;
+        return el.position.x >= this->position.x && el.position.x <= this->position.x + this->longeur && el.position.y <= this->position.y;
     }
 } // namespace entity
