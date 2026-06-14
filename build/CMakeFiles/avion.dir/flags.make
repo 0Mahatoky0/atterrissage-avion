@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src
+CXX_INCLUDES = -I/home/max/Fianarana/s4/prog/atterrissage-avion/src
 
-CXX_FLAGS = 
+CXX_FLAGS = -g
 

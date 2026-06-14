@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/avion.dir/src/view/ViewAvion.cpp.o.d"
   "CMakeFiles/avion.dir/src/view/ViewElementJeu.cpp.o"
   "CMakeFiles/avion.dir/src/view/ViewElementJeu.cpp.o.d"
+  "CMakeFiles/avion.dir/src/view/ViewSimulation.cpp.o"
+  "CMakeFiles/avion.dir/src/view/ViewSimulation.cpp.o.d"
   "avion"
   "avion.pdb"
 )

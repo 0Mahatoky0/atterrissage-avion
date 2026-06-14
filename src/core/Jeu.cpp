@@ -53,4 +53,8 @@ namespace core
     entity::ZoneJeu&  Jeu::getZoneJeu() {
         return zoneJeu;
     };
+
+    const entity::Avion& Jeu::getAvion() const {
+        return this->avion;
+    }
 } // namespace core

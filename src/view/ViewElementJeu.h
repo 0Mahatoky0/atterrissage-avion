@@ -1,6 +1,5 @@
 #pragma once
 #include "entity/ElementJeu.h"
-#include "entity/ElementJeu.h"
 #include <SFML/Graphics.hpp>
 namespace view
 {

@@ -9,7 +9,7 @@ namespace entity
     {
     }
 
-    util::Vecteur& ElementJeu::getPosition(){
+    const util::Vecteur& ElementJeu::getPosition() const {
         return position;
     }
 } // namespace entity

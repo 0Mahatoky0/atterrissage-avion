@@ -7,6 +7,7 @@
 #include "core/Jeu.h"
 #include "view/ViewAvion.h"
 #include "view/ViewAeroport.h"
+#include "view/ViewSimulation.h"
 #include <string>
 float SCALE_BACKEND = 10;
 int main()
@@ -54,6 +55,8 @@ int main()
     tempsPasser.setPosition(sf::Vector2f(100,200));
     tempsPasser.setFont(font);
 
+    view::ViewSimulation viewSimulation(jeu,SCALE_BACKEND);
+
     while (window.isOpen())
     {
         float dt = clock.restart().asSeconds();
@@ -94,7 +97,7 @@ int main()
         jeu.incrementTempsPasser(dt);
         window.clear(sf::Color::Cyan);
 
-        viewAeroport.draw(window);
+        //viewAeroport.draw(window);
         viewAvion.mettreAJourPosition();
         // mise a jour de l affichage
         infoVitesse.setString("vitesse : (" + std::to_string(jeu.getAvion().vitesse.x) + "," + std::to_string(jeu.getAvion().vitesse.y) + ") m/s");
@@ -105,9 +108,10 @@ int main()
                               " s");
 
         viewAvion.draw(window);
-        window.draw(infoVitesse);
-        window.draw(infoAcceleration);
-        window.draw(tempsPasser);
+        viewSimulation.dessinerAvionProfil(window);
+        //window.draw(infoVitesse);
+        //window.draw(infoAcceleration);
+        //window.draw(tempsPasser);
         window.display();
     };
 

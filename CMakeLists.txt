@@ -17,6 +17,7 @@ set(
     src/view/ViewElementJeu.cpp
     src/view/ViewAeroport.cpp
     src/view/ViewAvion.cpp
+    src/view/ViewSimulation.cpp
 )
 
 

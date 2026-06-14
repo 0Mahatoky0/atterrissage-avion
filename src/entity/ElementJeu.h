@@ -10,7 +10,7 @@ namespace entity
     public:
         ElementJeu(util::Vecteur position);
         ~ElementJeu();
-        util::Vecteur& getPosition();
+        const util::Vecteur& getPosition() const ;
     };
 
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/max/Fianarana/s4/tahina-projet/atterrissage-avion
+CMAKE_SOURCE_DIR = /home/max/Fianarana/s4/prog/atterrissage-avion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build
+CMAKE_BINARY_DIR = /home/max/Fianarana/s4/prog/atterrissage-avion/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Fianarana/s4/prog/atterrissage-avion/build/CMakeFiles /home/max/Fianarana/s4/prog/atterrissage-avion/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Fianarana/s4/prog/atterrissage-avion/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -369,6 +369,30 @@ src/view/ViewElementJeu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewElementJeu.cpp.s
 .PHONY : src/view/ViewElementJeu.cpp.s
 
+src/view/ViewSimulation.o: src/view/ViewSimulation.cpp.o
+.PHONY : src/view/ViewSimulation.o
+
+# target to build an object file
+src/view/ViewSimulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewSimulation.cpp.o
+.PHONY : src/view/ViewSimulation.cpp.o
+
+src/view/ViewSimulation.i: src/view/ViewSimulation.cpp.i
+.PHONY : src/view/ViewSimulation.i
+
+# target to preprocess a source file
+src/view/ViewSimulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewSimulation.cpp.i
+.PHONY : src/view/ViewSimulation.cpp.i
+
+src/view/ViewSimulation.s: src/view/ViewSimulation.cpp.s
+.PHONY : src/view/ViewSimulation.s
+
+# target to generate assembly for a file
+src/view/ViewSimulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewSimulation.cpp.s
+.PHONY : src/view/ViewSimulation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -408,6 +432,9 @@ help:
 	@echo "... src/view/ViewElementJeu.o"
 	@echo "... src/view/ViewElementJeu.i"
 	@echo "... src/view/ViewElementJeu.s"
+	@echo "... src/view/ViewSimulation.o"
+	@echo "... src/view/ViewSimulation.i"
+	@echo "... src/view/ViewSimulation.s"
 .PHONY : help
 
 

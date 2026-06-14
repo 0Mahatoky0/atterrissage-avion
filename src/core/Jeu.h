@@ -23,6 +23,7 @@ namespace core
         entity::ZoneJeu& getZoneJeu();
         void resetTempsPasser();
         const float getTempsPasser() const ;
+        const entity::Avion& getAvion() const;
         void incrementTempsPasser(float val);
     };
 
