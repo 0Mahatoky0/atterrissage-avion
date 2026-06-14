@@ -7,11 +7,11 @@ namespace view
     //constructeur
     view::ViewSimulation::ViewSimulation(const core::Jeu& jeu,int scale) : jeu(jeu), VUE_PROFIL(1) ,VUE_ARRIERE(2) , VUE_COURANTE(VUE_PROFIL),scale(scale) {
         TEXTURE_AVION_PROFIL.loadFromFile("assets/avion.png");
-        TEXTURE_AVION_ARRIERE.loadFromFile("avion_arriere.webp");
+        TEXTURE_AVION_ARRIERE.loadFromFile("assets/avion_arriere.png");
     }
 
     // -- dessin en arriere de l avion -- //
-    
+
 
     // -- dessin profil -- //
 
