@@ -10,6 +10,7 @@ namespace entity
     public:
         Aeroport(util::Vecteur position,float longeur);
         ~Aeroport();
-        bool siege(ElementJeu element);
+        const bool siege(ElementJeu element);
+        const float getLongeur() const;
     };    
 } // namespace entity

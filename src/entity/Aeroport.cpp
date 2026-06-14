@@ -9,7 +9,11 @@ namespace entity
     {
     }
 
-    bool Aeroport::siege(ElementJeu el) {
+    const bool Aeroport::siege(ElementJeu el) {
         return el.position.x >= this->position.x && el.position.x <= this->position.x + this->longeur && el.position.y <= this->position.y;
+    }
+
+    const float Aeroport::getLongeur() const {
+        return this->longeur;
     }
 } // namespace entity

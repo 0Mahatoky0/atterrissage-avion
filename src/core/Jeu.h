@@ -9,15 +9,23 @@ namespace core
     private:
         float tempsPasser;
         entity::Aeroport aeroport;
-        entity::Avion avion;
+        entity::Avion& avion;
         entity::ZoneJeu zoneJeu;
 
     public:
-        Jeu(entity::Aeroport aeroport,
-            entity::Avion avion,
-            entity::ZoneJeu zoneJeu);
+        Jeu(entity::Aeroport& aeroport,
+            entity::Avion& avion,
+            entity::ZoneJeu& zoneJeu);
         ~Jeu();
         void simmuler(float durrerMiliseconde);
+        entity::Aeroport& getAeroport();
+        entity::Avion& getAvion();
+        entity::ZoneJeu& getZoneJeu();
+        void resetTempsPasser();
+        const float getTempsPasser() const ;
+        void incrementTempsPasser(float val);
     };
+
+
 
 } // namespace core

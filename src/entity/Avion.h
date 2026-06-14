@@ -9,7 +9,7 @@ namespace entity
         util::Vecteur vitesse;
         util::Vecteur acceleration;
         util::Vecteur variationAcceleration;
-        util::Vecteur capaciteFreinage;
+        const util::Vecteur capaciteFreinage;
 
         float vitesseDecrochage;
 

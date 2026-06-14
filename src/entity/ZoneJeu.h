@@ -13,5 +13,7 @@ namespace entity
         ZoneJeu(util::Vecteur max,util::Vecteur min);
         ~ZoneJeu();
         bool contient(entity::ElementJeu& elementJeu);
+        const float getLongeur();
+        const float getHauteur();
     };
 } // namespace entity

@@ -1,11 +1,16 @@
-CMakeFiles/avion.dir/src/main.cpp.o: \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/SFML/Graphics.hpp \
- /usr/include/SFML/Window.hpp /usr/include/SFML/System.hpp \
- /usr/include/SFML/Config.hpp /usr/include/SFML/System/Clock.hpp \
- /usr/include/SFML/System/Export.hpp /usr/include/SFML/System/Time.hpp \
- /usr/include/SFML/System/Err.hpp /usr/include/c++/13/ostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+CMakeFiles/avion.dir/src/view/ViewAeroport.cpp.o: \
+ /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/view/ViewAeroport.cpp \
+ /usr/include/stdc-predef.h \
+ /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/view/ViewAeroport.h \
+ /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/Aeroport.h \
+ /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ElementJeu.h \
+ /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/util/Vecteur.h \
+ /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/view/ViewElementJeu.h \
+ /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
+ /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
+ /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
+ /usr/include/SFML/System/Time.hpp /usr/include/SFML/System/Err.hpp \
+ /usr/include/c++/13/ostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -234,14 +239,4 @@ CMakeFiles/avion.dir/src/main.cpp.o: \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/13/iostream \
- /usr/include/c++/13/istream /usr/include/c++/13/bits/istream.tcc \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/Avion.h \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/util/Vecteur.h \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ElementJeu.h \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/Aeroport.h \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/entity/ZoneJeu.h \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/core/Jeu.h \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/view/ViewAvion.h \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/view/ViewElementJeu.h \
- /home/max/Fianarana/s4/tahina-projet/atterrissage-avion/src/view/ViewAeroport.h
+ /usr/include/SFML/Graphics/VertexBuffer.hpp

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/avion.dir/src/core/Jeu.cpp.o"
+  "CMakeFiles/avion.dir/src/core/Jeu.cpp.o.d"
   "CMakeFiles/avion.dir/src/entity/Aeroport.cpp.o"
   "CMakeFiles/avion.dir/src/entity/Aeroport.cpp.o.d"
   "CMakeFiles/avion.dir/src/entity/Avion.cpp.o"
@@ -11,6 +13,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/avion.dir/src/main.cpp.o.d"
   "CMakeFiles/avion.dir/src/util/Vecteur.cpp.o"
   "CMakeFiles/avion.dir/src/util/Vecteur.cpp.o.d"
+  "CMakeFiles/avion.dir/src/view/ViewAeroport.cpp.o"
+  "CMakeFiles/avion.dir/src/view/ViewAeroport.cpp.o.d"
+  "CMakeFiles/avion.dir/src/view/ViewAvion.cpp.o"
+  "CMakeFiles/avion.dir/src/view/ViewAvion.cpp.o.d"
+  "CMakeFiles/avion.dir/src/view/ViewElementJeu.cpp.o"
+  "CMakeFiles/avion.dir/src/view/ViewElementJeu.cpp.o.d"
   "avion"
   "avion.pdb"
 )

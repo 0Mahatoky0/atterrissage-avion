@@ -129,6 +129,30 @@ avion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/build
 .PHONY : avion/fast
 
+src/core/Jeu.o: src/core/Jeu.cpp.o
+.PHONY : src/core/Jeu.o
+
+# target to build an object file
+src/core/Jeu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/core/Jeu.cpp.o
+.PHONY : src/core/Jeu.cpp.o
+
+src/core/Jeu.i: src/core/Jeu.cpp.i
+.PHONY : src/core/Jeu.i
+
+# target to preprocess a source file
+src/core/Jeu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/core/Jeu.cpp.i
+.PHONY : src/core/Jeu.cpp.i
+
+src/core/Jeu.s: src/core/Jeu.cpp.s
+.PHONY : src/core/Jeu.s
+
+# target to generate assembly for a file
+src/core/Jeu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/core/Jeu.cpp.s
+.PHONY : src/core/Jeu.cpp.s
+
 src/entity/Aeroport.o: src/entity/Aeroport.cpp.o
 .PHONY : src/entity/Aeroport.o
 
@@ -273,6 +297,78 @@ src/util/Vecteur.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/util/Vecteur.cpp.s
 .PHONY : src/util/Vecteur.cpp.s
 
+src/view/ViewAeroport.o: src/view/ViewAeroport.cpp.o
+.PHONY : src/view/ViewAeroport.o
+
+# target to build an object file
+src/view/ViewAeroport.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewAeroport.cpp.o
+.PHONY : src/view/ViewAeroport.cpp.o
+
+src/view/ViewAeroport.i: src/view/ViewAeroport.cpp.i
+.PHONY : src/view/ViewAeroport.i
+
+# target to preprocess a source file
+src/view/ViewAeroport.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewAeroport.cpp.i
+.PHONY : src/view/ViewAeroport.cpp.i
+
+src/view/ViewAeroport.s: src/view/ViewAeroport.cpp.s
+.PHONY : src/view/ViewAeroport.s
+
+# target to generate assembly for a file
+src/view/ViewAeroport.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewAeroport.cpp.s
+.PHONY : src/view/ViewAeroport.cpp.s
+
+src/view/ViewAvion.o: src/view/ViewAvion.cpp.o
+.PHONY : src/view/ViewAvion.o
+
+# target to build an object file
+src/view/ViewAvion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewAvion.cpp.o
+.PHONY : src/view/ViewAvion.cpp.o
+
+src/view/ViewAvion.i: src/view/ViewAvion.cpp.i
+.PHONY : src/view/ViewAvion.i
+
+# target to preprocess a source file
+src/view/ViewAvion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewAvion.cpp.i
+.PHONY : src/view/ViewAvion.cpp.i
+
+src/view/ViewAvion.s: src/view/ViewAvion.cpp.s
+.PHONY : src/view/ViewAvion.s
+
+# target to generate assembly for a file
+src/view/ViewAvion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewAvion.cpp.s
+.PHONY : src/view/ViewAvion.cpp.s
+
+src/view/ViewElementJeu.o: src/view/ViewElementJeu.cpp.o
+.PHONY : src/view/ViewElementJeu.o
+
+# target to build an object file
+src/view/ViewElementJeu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewElementJeu.cpp.o
+.PHONY : src/view/ViewElementJeu.cpp.o
+
+src/view/ViewElementJeu.i: src/view/ViewElementJeu.cpp.i
+.PHONY : src/view/ViewElementJeu.i
+
+# target to preprocess a source file
+src/view/ViewElementJeu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewElementJeu.cpp.i
+.PHONY : src/view/ViewElementJeu.cpp.i
+
+src/view/ViewElementJeu.s: src/view/ViewElementJeu.cpp.s
+.PHONY : src/view/ViewElementJeu.s
+
+# target to generate assembly for a file
+src/view/ViewElementJeu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avion.dir/build.make CMakeFiles/avion.dir/src/view/ViewElementJeu.cpp.s
+.PHONY : src/view/ViewElementJeu.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -282,6 +378,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... avion"
+	@echo "... src/core/Jeu.o"
+	@echo "... src/core/Jeu.i"
+	@echo "... src/core/Jeu.s"
 	@echo "... src/entity/Aeroport.o"
 	@echo "... src/entity/Aeroport.i"
 	@echo "... src/entity/Aeroport.s"
@@ -300,6 +399,15 @@ help:
 	@echo "... src/util/Vecteur.o"
 	@echo "... src/util/Vecteur.i"
 	@echo "... src/util/Vecteur.s"
+	@echo "... src/view/ViewAeroport.o"
+	@echo "... src/view/ViewAeroport.i"
+	@echo "... src/view/ViewAeroport.s"
+	@echo "... src/view/ViewAvion.o"
+	@echo "... src/view/ViewAvion.i"
+	@echo "... src/view/ViewAvion.s"
+	@echo "... src/view/ViewElementJeu.o"
+	@echo "... src/view/ViewElementJeu.i"
+	@echo "... src/view/ViewElementJeu.s"
 .PHONY : help
 
 

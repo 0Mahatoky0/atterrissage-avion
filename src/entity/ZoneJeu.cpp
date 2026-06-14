@@ -13,4 +13,12 @@ namespace entity
         return elementJeu.position.x >= min.x && elementJeu.position.x <= max.x 
         && elementJeu.position.y >= min.y && elementJeu.position.y <= max.y;
     }
+
+    const float ZoneJeu::getLongeur() {
+        return this->max.x - this->min.x;
+    }
+
+    const float ZoneJeu::getHauteur() {
+        return this->max.y - this->min.y;
+    }
 } // namespace entity

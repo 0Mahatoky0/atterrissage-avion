@@ -81,10 +81,10 @@
 - Aeroport
 - ZoneJeu
 # affichage
-- Premier fenetre
-- Desin avion
-- Affichage image
-- Deplacement avion , (boucle de temps)
+- [ok] Premier fenetre
+- [ok] Desin avion
+- [ok] Affichage image
+- [ok] Deplacement avion , (boucle de temps)
 - Ajout de bonton
 - affichage labelle
 - evenement sur bouton
