@@ -10,6 +10,9 @@ namespace view
         TEXTURE_AVION_ARRIERE.loadFromFile("avion_arriere.webp");
     }
 
+    // -- dessin en arriere de l avion -- //
+    
+
     // -- dessin profil -- //
 
     void view::ViewSimulation::dessinerVueProfil(sf::RenderWindow &window) {
