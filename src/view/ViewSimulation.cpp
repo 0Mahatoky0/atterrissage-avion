@@ -11,7 +11,11 @@ namespace view
     }
 
     // -- dessin en arriere de l avion -- //
-
+    void view::ViewSimulation::dessinerAvionVueArriere(sf::RenderWindow &window) {
+        this->avionSprite.setTexture(TEXTURE_AVION_ARRIERE);
+        this->avionSprite.setPosition(200,200);
+        window.draw(this->avionSprite);
+    }
 
     // -- dessin profil -- //
 
