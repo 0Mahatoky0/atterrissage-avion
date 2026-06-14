@@ -108,8 +108,9 @@ int main()
                               " s");
 
         //viewAvion.draw(window);
-        viewSimulation.dessinerAeroportProfil(window);
-        viewSimulation.dessinerAvionProfil(window);
+        //viewSimulation.dessinerAeroportProfil(window);
+        //viewSimulation.dessinerAvionProfil(window);
+        viewSimulation.dessinerVueProfil(window);
         //window.draw(infoVitesse);
         //window.draw(infoAcceleration);
         //window.draw(tempsPasser);

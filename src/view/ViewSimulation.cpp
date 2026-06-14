@@ -10,8 +10,12 @@ namespace view
         TEXTURE_AVION_ARRIERE.loadFromFile("avion_arriere.webp");
     }
 
+    // -- dessin profil -- //
+
     void view::ViewSimulation::dessinerVueProfil(sf::RenderWindow &window) {
         //initialiser vue avion profil
+        this->dessinerAeroportProfil(window);
+        this->dessinerAvionProfil(window);
     }
 
     void view::ViewSimulation::dessinerAvionProfil(sf::RenderWindow &window) {
@@ -25,8 +29,6 @@ namespace view
         this->aeroportRect.setFillColor(sf::Color::Black);
         this->aeroportRect.setPosition(toVector2f(window,this->jeu.getAeroport().getPosition()));
         window.draw(this->aeroportRect);
-        std::cout << "La position de la piste y : " <<  this->aeroportRect.getPosition().y << std::endl;
-        std::cout << "La position de la piste x : " <<  this->aeroportRect.getPosition().x << std::endl;
     }
 
     sf::Vector2f view::ViewSimulation::toVector2f(sf::RenderWindow &window, util::Vecteur vecteur) {
