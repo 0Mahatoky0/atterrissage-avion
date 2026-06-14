@@ -241,4 +241,6 @@ CMakeFiles/avion.dir/src/view/ViewSimulation.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/max/Fianarana/s4/prog/atterrissage-avion/src/view/ViewSimulation.h
+ /home/max/Fianarana/s4/prog/atterrissage-avion/src/view/ViewSimulation.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/istream \
+ /usr/include/c++/13/bits/istream.tcc

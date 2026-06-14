@@ -18,7 +18,7 @@ namespace core
             entity::ZoneJeu& zoneJeu);
         ~Jeu();
         void simmuler(float durrerMiliseconde);
-        entity::Aeroport& getAeroport();
+        const entity::Aeroport& getAeroport() const ;
         entity::Avion& getAvion();
         entity::ZoneJeu& getZoneJeu();
         void resetTempsPasser();

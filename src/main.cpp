@@ -107,7 +107,8 @@ int main()
         tempsPasser.setString("Temps passer : (" + std::to_string(jeu.getTempsPasser()) +
                               " s");
 
-        viewAvion.draw(window);
+        //viewAvion.draw(window);
+        viewSimulation.dessinerAeroportProfil(window);
         viewSimulation.dessinerAvionProfil(window);
         //window.draw(infoVitesse);
         //window.draw(infoAcceleration);

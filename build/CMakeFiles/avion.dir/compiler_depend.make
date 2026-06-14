@@ -1727,6 +1727,7 @@ CMakeFiles/avion.dir/src/view/ViewSimulation.cpp.o: /home/max/Fianarana/s4/prog/
   /usr/include/c++/13/bits/hash_bytes.h \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
   /usr/include/c++/13/bits/locale_conv.h \
@@ -1797,6 +1798,8 @@ CMakeFiles/avion.dir/src/view/ViewSimulation.cpp.o: /home/max/Fianarana/s4/prog/
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
   /usr/include/c++/13/iterator \
   /usr/include/c++/13/locale \
   /usr/include/c++/13/map \

@@ -1,7 +1,7 @@
 #include "core/Jeu.h"
 #include <SFML/Graphics.hpp>
 #include "view/ViewSimulation.h"
-
+#include <iostream>
 namespace view
 {
     //constructeur
@@ -21,10 +21,15 @@ namespace view
     }
 
     void view::ViewSimulation::dessinerAeroportProfil(sf::RenderWindow &window) {
-
+        this->aeroportRect.setSize(sf::Vector2f(this->jeu.getAeroport().getLongeur()*scale,60));
+        this->aeroportRect.setFillColor(sf::Color::Black);
+        this->aeroportRect.setPosition(toVector2f(window,this->jeu.getAeroport().getPosition()));
+        window.draw(this->aeroportRect);
+        std::cout << "La position de la piste y : " <<  this->aeroportRect.getPosition().y << std::endl;
+        std::cout << "La position de la piste x : " <<  this->aeroportRect.getPosition().x << std::endl;
     }
 
     sf::Vector2f view::ViewSimulation::toVector2f(sf::RenderWindow &window, util::Vecteur vecteur) {
-        return sf::Vector2f(vecteur.x /scale, window.getSize().y -vecteur.y/scale);
+        return sf::Vector2f(vecteur.x/scale, window.getSize().y -vecteur.y/scale);
     }
 } // namespace view

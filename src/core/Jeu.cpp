@@ -44,7 +44,7 @@ namespace core
         }
     };
 
-    entity::Aeroport& Jeu::getAeroport() {
+    const entity::Aeroport& Jeu::getAeroport() const {
         return aeroport;
     };
     entity::Avion& Jeu::getAvion() {
