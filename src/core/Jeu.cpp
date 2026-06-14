@@ -25,6 +25,14 @@ namespace core
         return this->tempsPasser;
     }
 
+    const float Jeu::getDistanceAvionAeroport() const  {
+        return this->avion.getPosition().x - this->aeroport.getPosition().x; 
+    }
+
+    const float Jeu::getAltitudeAvionAeroport() const {
+        return this->avion.getPosition().y - this->aeroport.getPosition().y;
+    }
+
     void Jeu::simmuler(float durrerMiliseconde)
     {
         avion.simuler(durrerMiliseconde);

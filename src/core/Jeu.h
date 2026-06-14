@@ -17,6 +17,8 @@ namespace core
             entity::Avion& avion,
             entity::ZoneJeu& zoneJeu);
         ~Jeu();
+        const float getAltitudeAvionAeroport() const ;
+        const float getDistanceAvionAeroport() const ;
         void simmuler(float durrerMiliseconde);
         const entity::Aeroport& getAeroport() const ;
         entity::Avion& getAvion();

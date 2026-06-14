@@ -13,7 +13,7 @@ namespace view
     // -- dessin en arriere de l avion -- //
     void view::ViewSimulation::dessinerAvionVueArriere(sf::RenderWindow &window) {
         this->avionSprite.setTexture(TEXTURE_AVION_ARRIERE);
-        this->avionSprite.setPosition(200,200);
+        this->avionSprite.setPosition(window.getSize().x /2-125,100);
         window.draw(this->avionSprite);
     }
 

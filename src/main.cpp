@@ -41,7 +41,7 @@ int main()
     sf::Text infoAcceleration;
     infoAcceleration.setString("Acceleration : (" + std::to_string(avion.acceleration.x) +
                                "," + std::to_string(avion.acceleration.y) + ") m/s");
-    infoAcceleration.setPosition(100,100);
+    infoAcceleration.setPosition(100, 100);
     infoAcceleration.setFont(font);
     infoAcceleration.setCharacterSize(30);
     infoAcceleration.setFillColor(sf::Color::White);
@@ -52,10 +52,10 @@ int main()
     sf::Text tempsPasser;
     tempsPasser.setString("Temps passer : (" + std::to_string(jeu.getTempsPasser()) +
                           " s");
-    tempsPasser.setPosition(sf::Vector2f(100,200));
+    tempsPasser.setPosition(sf::Vector2f(100, 200));
     tempsPasser.setFont(font);
 
-    view::ViewSimulation viewSimulation(jeu,SCALE_BACKEND);
+    view::ViewSimulation viewSimulation(jeu, SCALE_BACKEND);
 
     while (window.isOpen())
     {
@@ -73,31 +73,31 @@ int main()
                 if (event.key.code == sf::Keyboard::E)
                 {
                     jeu.getAvion().augmenterAccelerationY();
-                 //   std::cout << "Augmentation de l acceleration Y" << std::endl;
+                    //   std::cout << "Augmentation de l acceleration Y" << std::endl;
                 }
                 if (event.key.code == sf::Keyboard::D)
                 {
                     jeu.getAvion().diminuerAccelerationY();
-                  //  std::cout << "Diminuation de l acceleration Y" << std::endl;
+                    //  std::cout << "Diminuation de l acceleration Y" << std::endl;
                 }
                 if (event.key.code == sf::Keyboard::F)
                 {
                     jeu.getAvion().augmenterAccelerationX();
-                   // std::cout << "Augmentation de l acceleration X" << std::endl;
+                    // std::cout << "Augmentation de l acceleration X" << std::endl;
                 }
                 if (event.key.code == sf::Keyboard::S)
                 {
                     jeu.getAvion().diminuerAccelerationX();
-                    //std::cout << "Diminuation de l acceleration X" << std::endl;
+                    // std::cout << "Diminuation de l acceleration X" << std::endl;
                 }
             }
         }
         // mise a jour du logique
-        jeu.simmuler(dt*1000);
+        jeu.simmuler(dt * 1000);
         jeu.incrementTempsPasser(dt);
         window.clear(sf::Color::Cyan);
 
-        //viewAeroport.draw(window);
+        // viewAeroport.draw(window);
         viewAvion.mettreAJourPosition();
         // mise a jour de l affichage
         infoVitesse.setString("vitesse : (" + std::to_string(jeu.getAvion().vitesse.x) + "," + std::to_string(jeu.getAvion().vitesse.y) + ") m/s");
@@ -107,14 +107,17 @@ int main()
         tempsPasser.setString("Temps passer : (" + std::to_string(jeu.getTempsPasser()) +
                               " s");
 
-        //viewAvion.draw(window);
-        //viewSimulation.dessinerAeroportProfil(window);
-        //viewSimulation.dessinerAvionProfil(window);
-        //viewSimulation.dessinerVueProfil(window);
-        viewSimulation.dessinerAvionVueArriere(window);
-        //window.draw(infoVitesse);
-        //window.draw(infoAcceleration);
-        //window.draw(tempsPasser);
+        // viewAvion.draw(window);
+        // viewSimulation.dessinerAeroportProfil(window);
+        // viewSimulation.dessinerAvionProfil(window);
+        viewSimulation.dessinerVueProfil(window);
+        // viewSimulation.dessinerAvionVueArriere(window);
+
+        std::cout << "Distance piste : " << jeu.getDistanceAvionAeroport() << std::endl;
+        std::cout << "Altitude piste : " << jeu.getAltitudeAvionAeroport() << std::endl;
+        // window.draw(infoVitesse);
+        // window.draw(infoAcceleration);
+        // window.draw(tempsPasser);
         window.display();
     };
 
