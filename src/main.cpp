@@ -111,7 +111,7 @@ int main()
         // viewSimulation.dessinerAeroportProfil(window);
         // viewSimulation.dessinerAvionProfil(window);
         viewSimulation.dessinerAeroportVueArriere(window);
-        viewSimulation.dessinerVueProfil(window);
+        viewSimulation.dessinerAvionVueArriere(window);
         // viewSimulation.dessinerAvionVueArriere(window);
 
        // std::cout << "Distance piste : " << jeu.getDistanceAvionAeroport() << std::endl;
