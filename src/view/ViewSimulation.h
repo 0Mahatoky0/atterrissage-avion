@@ -6,36 +6,41 @@ namespace view
     class ViewSimulation
     {
     private:
-        const core::Jeu& jeu;
+        const core::Jeu &jeu;
 
         const int VUE_PROFIL;
         const int VUE_ARRIERE;
         const int VUE_COURANTE;
         const int scale;
 
-        //image utile
+        // image utile
         sf::Texture TEXTURE_AVION_PROFIL;
         sf::Texture TEXTURE_AVION_ARRIERE;
 
-        //dessin des composants de jeu
+        // dessin des composants de jeu
         sf::RectangleShape aeroportRect;
         sf::Sprite avionSprite;
 
-        // fonction pour dessiner 
+        // fonction pour dessiner
     public:
         void dessinerVueProfil(sf::RenderWindow &window);
         void dessinerAvionProfil(sf::RenderWindow &window);
         void dessinerAeroportProfil(sf::RenderWindow &window);
 
-        //void dessinerVueArriere(sf::RenderWindow &window);
+        // void dessinerVueArriere(sf::RenderWindow &window);
         void dessinerAvionVueArriere(sf::RenderWindow &window);
         void dessinerAeroportVueArriere(sf::RenderWindow &window);
 
-        sf::Vector2f toVector2f(sf::RenderWindow &window,util::Vecteur vecteur);
+        sf::Vector2f toVector2f(sf::RenderWindow &window, util::Vecteur vecteur);
+
     public:
-        //void dessiner(sf::RenderWindow &window);
-        //void mettreAJour();
-        ViewSimulation(const core::Jeu &jeu,const int scale);
+        // void dessiner(sf::RenderWindow &window);
+        // void mettreAJour();
+        ViewSimulation(const core::Jeu &jeu, const int scale);
         //~ViewSimulation();
+
+        // util
+    private:
+        const float positionCenterX(sf::RenderWindow &window, float size);
     };
 } // namespace view

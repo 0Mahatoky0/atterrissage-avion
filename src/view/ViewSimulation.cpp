@@ -30,15 +30,20 @@ namespace view
             jeu.getDistanceAvionAeroport() <= 0) {
                 float invers = jeu.getDistanceAvionAeroport() * window.getSize().x / DISTANCE_MIN_VISON;
                 tailleAeroport = window.getSize().x  - invers;
-                std::cout << "invers : " << invers << std::endl;
-                std::cout << "taille : " << tailleAeroport << std::endl;
+                //std::cout << "invers : " << invers << std::endl;
+                //std::cout << "taille : " << tailleAeroport << std::endl;
             }
         this->aeroportRect.setSize(sf::Vector2f(tailleAeroport,100));
-        this->aeroportRect.setPosition(0,500);
+        this->aeroportRect.setPosition(positionCenterX(window,tailleAeroport),500);
+        std::cout << "position center  : " << positionCenterX(window,tailleAeroport) << std::endl;
+
         window.draw(this->aeroportRect);
 
     }
 
+    const float view::ViewSimulation::positionCenterX(sf::RenderWindow &window,float size)  {
+        return window.getSize().x/2 - size/2;
+    }
     // -- dessin profil -- //
 
     void view::ViewSimulation::dessinerVueProfil(sf::RenderWindow &window) {
