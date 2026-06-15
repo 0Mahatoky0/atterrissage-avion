@@ -29,7 +29,7 @@ namespace view
 
         //void dessinerVueArriere(sf::RenderWindow &window);
         void dessinerAvionVueArriere(sf::RenderWindow &window);
-        //void dessinerAeroportVueArriere(sf::RenderWindow &window);
+        void dessinerAeroportVueArriere(sf::RenderWindow &window);
 
         sf::Vector2f toVector2f(sf::RenderWindow &window,util::Vecteur vecteur);
     public:

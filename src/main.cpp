@@ -110,11 +110,12 @@ int main()
         // viewAvion.draw(window);
         // viewSimulation.dessinerAeroportProfil(window);
         // viewSimulation.dessinerAvionProfil(window);
+        viewSimulation.dessinerAeroportVueArriere(window);
         viewSimulation.dessinerVueProfil(window);
         // viewSimulation.dessinerAvionVueArriere(window);
 
-        std::cout << "Distance piste : " << jeu.getDistanceAvionAeroport() << std::endl;
-        std::cout << "Altitude piste : " << jeu.getAltitudeAvionAeroport() << std::endl;
+       // std::cout << "Distance piste : " << jeu.getDistanceAvionAeroport() << std::endl;
+       // std::cout << "Altitude piste : " << jeu.getAltitudeAvionAeroport() << std::endl;
         // window.draw(infoVitesse);
         // window.draw(infoAcceleration);
         // window.draw(tempsPasser);

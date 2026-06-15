@@ -8,7 +8,7 @@ namespace core
     {
     private:
         float tempsPasser;
-        entity::Aeroport aeroport;
+        entity::Aeroport& aeroport;
         entity::Avion& avion;
         entity::ZoneJeu zoneJeu;
 
