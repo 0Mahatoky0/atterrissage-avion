@@ -40,6 +40,11 @@ namespace view
             // std::cout << "taille : " << tailleAeroport << std::endl;
         }
 
+        if(jeu.getDistanceAvionAeroport() > 0 &&
+            jeu.getDistanceAvionAeroport() <= jeu.getAeroport().getLongeur()) {
+                tailleAeroport = window.getSize().x;
+            }
+
         float HAUTEUR_MIN_VISION = 5000;
         float HAUTEUR_VISION_PIXIEL = 500;
         // gerer la position de l aeroport en fonction de la distance
